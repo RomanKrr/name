@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2? family= Alexandria:wght@100;600 & family= B612+Mono & family= Inter:wght@900 &родина= Монсеррат:wght@100 & display=swap');
+
+body{
+    background-color: rgb(49, 40, 72);
+    padding-top: 50px;
+    padding-left: 84px;
+    padding-right: 84px;
+    color: aliceblue;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between  ;
+}
+
+.header__title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+.header__subtitle{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 44px;
+}
+.header__subtitle::before{
+    position: absolute;
+    width: 228px;
+    height: 100px;
+    content: "";
+    transition: 0.2s ease-in-out;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    background-image: url(../img/Component\ 2.png);
+    right: 936px;
+    top: 132px;
+}
+.p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+.header__p{
+    margin-top: 30px;
+}
+
+.about{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 97px;
+}
+
+img{
+    width: 524px;
+    height: 557px;
+}
+
+.about__about{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    margin-bottom: 48px;
+}
+
+button{
+    width: 154px;
+    height: 48px;
+    border: 2px solid #FFFFFF;
+    border-radius: 40px;
+    cursor: pointer;
+    background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+    transition: 1.2s;
+}
+
+button:hover{
+    color: white;
+    background-color: rgb(49, 40, 72);
+}
+
+.img__block{
+    width: 190.92px;
+    height: 190.92px;
+}
+
+.flex__container{
+    display: flex;
+    gap: 20px;
+}
+
+li{
+    width: 310px;
+    height: 511px;
+    list-style: none;
+    background: radial-gradient(50% 50% at 50% 50%, #433D60 0%, #211E2E 100%);
+    border-radius: 40px;
+}
+
+.flex__container li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.block__p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+.elipse{
+    position: absolute;
+    width: 219px;
+    height: 219px;
+    top: 1000px;
+}
+
+li img{
+    box-shadow: 0 0  20px black;
+}
